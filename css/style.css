@@ -1,12 +1,12 @@
 body {
     padding-left: 10rem;
     padding-right: 10rem;
-    background: url(/img/background/lil_fiber.png);
+    background: url(../img/background/lil_fiber.png);
 }
 
 header {
     display: inline-block;
-    background: url(/img/background/nasty_fabric.png);
+    background: url(../img/background/nasty_fabric.png);
     width: 100%;
 }
 

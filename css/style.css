@@ -2,6 +2,7 @@ body {
     padding-left: 10rem;
     padding-right: 10rem;
     background: url(../img/background/lil_fiber.png);
+    font-family: "Gemunu Libre", sans-serif;
 }
 
 header {
@@ -33,13 +34,6 @@ header {
     object-fit: cover;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p, 
 input,
 textarea, 
 button {
@@ -221,6 +215,7 @@ footer {
 }
 
 .form{
+    text-align: center;
     width: 50rem;
     display: flex;
     flex-direction: column;
@@ -228,9 +223,17 @@ footer {
 }
 
 .form-input{
-    
+    margin: 2px;
 }
 
 .form button {
-    width:20rem;
+    margin-top: 10px;
+    width:100px;
+    height:40px;
+    margin-left: 350px;
+}
+
+.form button h5{
+    margin-top:0;
+    margin-bottom: 0;
 }

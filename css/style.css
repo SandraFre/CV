@@ -39,7 +39,10 @@ h3,
 h4,
 h5,
 h6,
-p {
+p, 
+input,
+textarea, 
+button {
     font-family: "Gemunu Libre", sans-serif;
 }
 
@@ -206,4 +209,28 @@ main > .skills {
 
 .margin-top-7px {
     margin-top: 7px;
+}
+
+footer {
+    border-top: solid grey;
+    margin-bottom: 10rem;
+}
+
+.contact-us{
+    text-align: center;
+}
+
+.form{
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto; 
+}
+
+.form-input{
+    
+}
+
+.form button {
+    width:20rem;
 }

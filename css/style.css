@@ -216,7 +216,7 @@ footer {
 
 .form{
     text-align: center;
-    width: 50rem;
+    width: 60%;
     display: flex;
     flex-direction: column;
     margin: auto; 
@@ -230,7 +230,7 @@ footer {
     margin-top: 10px;
     width:100px;
     height:40px;
-    margin-left: 350px;
+    margin-left: 45%;
 }
 
 .form button h5{

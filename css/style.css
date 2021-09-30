@@ -240,10 +240,67 @@ footer {
 
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+    body {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    .title {
+        margin: 10px 0 0 30px;
+    }
+
+    .title h1{
+        font-size: 30px;
+    }
+    .title h2{
+        font-size: 20px;
+    }
+    
+    .photo {
+        width: 10vh;
+        height: 10vh;
+        overflow: hidden;
+        display: flex;
+        float: right;
+        border-radius: 50%;
+        margin: 20px 20px 20px 0;
+    }
+
+    main {
+        display: grid;
+        grid-template-areas:
+            "profile"
+            "contact "
+            "education "
+            "experience"
+            "skills";
+        grid-template-columns: 1fr;
+    }
+
+    main > .education {
+        border-bottom: solid grey;
+    }
+
+    main > .experience {
+        border-bottom: solid grey;
+    }
+
+    .skill-grid {
+        display: grid;
+        grid-template-areas: "languages personal professional";
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .form button {
+        margin-left: 30%;
+    }
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+    
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {}

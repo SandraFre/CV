@@ -35,7 +35,7 @@ header {
 }
 
 input,
-textarea, 
+textarea,
 button {
     font-family: "Gemunu Libre", sans-serif;
 }
@@ -210,34 +210,32 @@ footer {
     margin-bottom: 10rem;
 }
 
-.contact-us{
+.contact-us {
     text-align: center;
 }
 
-.form{
+.form {
     text-align: center;
     width: 60%;
     display: flex;
     flex-direction: column;
-    margin: auto; 
+    margin: auto;
 }
 
-.form-input{
+.form-input {
     margin: 2px;
 }
 
 .form button {
-    margin-top: 10px;
-    width:100px;
-    height:40px;
-    margin-left: 45%;
+    margin: 10px auto;
+    width: 100px;
+    height: 40px;
 }
 
-.form button h5{
-    margin-top:0;
+.form button h5 {
+    margin-top: 0;
     margin-bottom: 0;
 }
-
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -250,13 +248,13 @@ footer {
         margin: 10px 0 0 30px;
     }
 
-    .title h1{
+    .title h1 {
         font-size: 30px;
     }
-    .title h2{
+    .title h2 {
         font-size: 20px;
     }
-    
+
     .photo {
         width: 10vh;
         height: 10vh;
@@ -292,21 +290,20 @@ footer {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .form button {
-        margin-left: 30%;
-    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+}

@@ -17,8 +17,8 @@ header {
 }
 
 .photo {
-    width: 30vh;
-    height: 30vh;
+    width: 150px;
+    height: 150px;
     overflow: hidden;
     display: flex;
     float: right;
@@ -239,6 +239,10 @@ footer {
 .form button h5 {
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.mr-20{
+    margin-right: 30px;
 }
 
 /* Extra small devices (phones, 600px and down) */
